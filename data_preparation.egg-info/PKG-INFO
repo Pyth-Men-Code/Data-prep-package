@@ -1,6 +1,14 @@
-# data-prep-package
-Package that contains many functions to build a ML/DL/NLP models 
-
+Metadata-Version: 2.1
+Name: data_preparation
+Version: 1.0.0
+Summary: Utilities package for Artificial Intelligence
+Home-page: 
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.26.2
+Requires-Dist: matplotlib==3.8.4
+Requires-Dist: scikit_learn==1.4.2
+Requires-Dist: pandas==2.2.2
 
 ## Installation
 - Clone the git repository git clone 
