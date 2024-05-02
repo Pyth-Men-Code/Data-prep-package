@@ -1,6 +1,6 @@
 
 from os import path
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages 
 
 def setup_package():
     here = path.abspath(path.dirname(__file__))
@@ -14,7 +14,7 @@ def setup_package():
                     "Intelligence",
         long_description=long_description,
         long_description_content_type="text/markdown",
-        url="",
+        url="https://github.com/Pyth-Men-Code/data-prep-package.git",
         python_requires='>=3.11.0',
         packages=find_packages(
             exclude=("")),
