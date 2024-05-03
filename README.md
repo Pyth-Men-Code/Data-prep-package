@@ -11,9 +11,7 @@ The module can be installed in two ways, for production purposes or development 
 ### Production mode
 
 This mode installs a copy of the module in the site-packages of the virtual environment,
-and only installs the modules related to production : cleaning, feature-engineering,
-preprocessing and utils. Only the dependencies necessary to use these modules are installed,
-such as described in the setup.py.
+and only installs the modules related to production. 
 
 Activate the virtual environement, then install the module with pip
 

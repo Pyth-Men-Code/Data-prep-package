@@ -40,12 +40,12 @@ def wordopt(text):
     text = re.sub('<.*?>+', '', text)
     text = re.sub('[%s]' % re.escape(string.punctuation), '', text)
     text = re.sub('\n', '', text)
-    text = re.sub(' +', '', text)
+    #text = re.sub(' +', '', text)
     text = re.sub('\w*\d\w*', '', text)
     # suppression des tags(@soso1234)
     text = re.sub('@/s+', '', text)
     text = ' '.join([word for word in text.split() if word not in stop_words])
-    text = ' '.join([lemmatizer.lemmatize(word) for word in text.split()])
+    #text = ' '.join([lemmatizer.lemmatize(word) for word in text.split()])
     return text
 
 
