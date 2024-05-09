@@ -1,6 +1,4 @@
 
-## template for data cleaning
-
 def netteyer_nom(df):
     """Transform maj to num for Name column """
     df['Name'] = df['Name'].str.Upper()
@@ -14,4 +12,3 @@ def remove_null_values(df):
     """Remove rows with null values from a pandas DataFrame."""
     return df.dropna()
 
-# to be continued 
